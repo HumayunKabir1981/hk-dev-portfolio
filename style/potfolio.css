@@ -25,6 +25,9 @@ font-size: 45px;
 }
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png"),url("../images/header_bg.png");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 nav{
@@ -35,6 +38,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid red;
 }
 
 nav .menu{
@@ -42,8 +46,139 @@ nav .menu{
   list-style-type: none;
   gap: 51px;
   align-items: center;
+}
+
 nav .menu a{
 font-size: 20px;
 color: #474747;
 text-decoration: none;
+}
+
+
+
+#banner{
+  width: 81%;
+  max-width: 1140px;
+  margin: 47px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  border: 1px solid red;
+  
+}
+/*
+#banner .banner-content {
+ 
+max-width: 585px;
+}
+
+*/
+#banner .banner-content h2{
+font-size: 45px;
+font-weight: 600;
+color: #474747;
+margin-bottom: 5px;
+}
+
+#banner .banner-content h1{
+font-size: 85px;
+font-weight: bold;
+color: #818181;
+margin-bottom: 20px;
+}
+
+#banner .banner-content p{
+font-size: 18px;
+color: #757575;
+line-height: 30px;
+margin-bottom: 30px;
+}
+#banner .banner-image img{
+max-width: 585px;
+vertical-align: middle;
+
+}
+
+
+
+#aboutme{
+  padding-top: 130px;
+}
+#aboutme .about-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+ 
+   border: 1px solid red;
+}
+ .para{
+  margin: 30px 0;
+}
+#aboutme .about-container .pinfo{
+display:flex;
+justify-content: space-around;
+}
+
+
+
+
+#whatIdo{
+  padding-top: 130px;
+}
+#whatIdo .whatido-container h1{
+ font-size: 35px;
+ color: #474747;
+
+}
+
+#whatIdo .whatido-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+   border: 1px solid red;
+
+
+}
+
+#whatIdo .whatido-container .skil{
+
+  display:flex;
+justify-content: space-between;
+padding-top: 50px;
+box-shadow: 0,10px 10px grey;
+
+
+}
+
+
+
+#summary .summary-container h1{
+ padding: 130px;
+ text-align: center;
+ font-size: 35px;
+
+}
+#summary .summary-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+#summary .summary-container .summary-type{
+  
+  display: flex;
+  justify-content: space-between;
+}
+#summary .summary-container .summary-type div{
+  
+  max-width: 511px;
+  height: 175px;
+}
+#summary .summary-container .summary-type h2{
+
+padding-bottom: 100px;
 }
